@@ -1,0 +1,16 @@
+.container{
+    background-color: grey;
+}
+#jumbotron{
+    background-color: maroon;
+}
+h1{
+    font-size: larger;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+p{
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+}

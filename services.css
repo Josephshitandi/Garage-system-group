@@ -1,25 +1,22 @@
+
 .container{
-    background-color: grey;
+    background-color:#98954E;
 }
-#jumbotron{
-    background-color: maroon;
+.jumbotron{
+    background-color: gray;
 }
 h1{
-    font-size: larger;
-    color: black;
-    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    color:black;
+    font-family: 'Playball', cursive;
     text-align: center;
 }
 p{
     font-size: medium;
-    font-family: 'Courier New', Courier, monospace;
-}.card img {
-    width: 100%;
+    font-family: 'Playball', cursive;
+}
+/* #image1>image{
+    width: 300%;
     height: 30vh;
     object-fit: cover;
-  }
-  
-  .card {
-    height: 50vh;
-    margin-bottom: 20px;
-  }
+} */

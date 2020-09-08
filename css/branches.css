@@ -1,0 +1,19 @@
+h1 {
+	text-align: center;
+	color: blue;
+	margin-top: 50px;
+}
+body {
+	background-color: chartreuse;
+}
+.jumbotron {
+	background-color: chocolate;
+}
+
+.details {
+	text-align: center;
+	color: black;
+}
+.col-md-4 {
+	text-align: center;
+}

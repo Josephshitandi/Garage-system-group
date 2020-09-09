@@ -80,7 +80,7 @@ $(document).ready(function () {
         var userService = $("#services").val();
         var userDuration = $("#duration").val();
         var newBooking = new Booking(userName, userEmail, userPhone, userId, userRegNo, userBranch, userType, userService, userDuration)
-        console.log(newBooking)
+        $("#checkout").show();
 
         servicesOrdered.push(newBooking);
         $("#fname").val("");
@@ -200,4 +200,7 @@ $(document).ready(function () {
             }
         });
     }
+    $("#checkout").click(function () {
+        alert("Thank you for booking with us. You will be alerted when the service is done.")
+    });
 });

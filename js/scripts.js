@@ -33,6 +33,18 @@ $(document).ready(function(){
             }else{
                 return 600;
             }
+        }else {
+            if(this.services === "Engine service"){
+                return 2000;
+            }else if(this.services === "Power System"){
+                return 1500;
+            }else if(this.services === "Oil services"){
+                return 2500;
+            }else if(this.services === "Parking"){
+                return 300;
+            }else{
+                return 300;
+            }
         }
     }
 })

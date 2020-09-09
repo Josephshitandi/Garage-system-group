@@ -203,4 +203,18 @@ $(document).ready(function () {
     $("#checkout").click(function () {
         alert("Thank you for booking with us. You will be alerted when the service is done.")
     });
+
+    $("#contactUs").submit(function (e) {
+        e.preventDefault();
+        var cname = $("#cname").val();
+        var cemail = $("#cemail").val();
+        var cmessage = $("#cmessage").val();
+        alert("Thank you " + cname + " for reaching us.");
+        $("#cname").val("");
+        $("#cemail").val("");
+        $("#cmessage").val("");
+
+
+    });
+
 });

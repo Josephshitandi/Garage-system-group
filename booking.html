@@ -12,72 +12,96 @@
 <body>
     <div class="container">
         <div class="row">
+            <form id="userInput">
+                <div class="col-md">
+                    <h1>BOOKING SERVICES</h1>
+                    <div class="form-group">
+                        <label for="fname">Full Names</label>
+                        <input type="fname" class="form-control" id="fname" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email address</label>
+                        <input type="email" class="form-control" id="email" aria-describedby="emailHelp" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="fphone">Phone No.</label>
+                        <input type="number" class="form-control" id="fpnone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="fid">ID No.</label>
+                        <input type="number" class="form-control" id="fid" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="rnumber">Registration No.</label>
+                        <input type="text" class="form-control" id="rnumber" required>
 
-            <div class="col-md-6">
-                <h1>BOOKING SERVICES</h1>
-                <div class="form-group">
-                    <label for="fname">Full Names</label>
-                    <input type="fname" class="form-control" id="fname">
-                </div>
-                <div class="form-group">
-                    <label for="email">Email address</label>
-                    <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
-                </div>
-                <div class="form-group">
-                    <label for="exampleInputEmail1">Phone No.</label>
-                    <input type="number" class="form-control" id="fpnone">
-                </div>
-                <div class="form-group">
-                    <label for="exampleInputEmail1">Registratoion No.</label>
-                    <input type="text" class="form-control" id="rnumber">
+                    </div>
 
-                </div>
-                <form id="userInput">
                     <div class="form-group" id="userInput">
                         <label for="branch">Branch
                         </label>
-                        <select class="form-control" id="branch">
+                        <select class="form-control" id="branch" required>
                             <option></option>
                             <option value="Nairobi">Nairobi</option>
                             <option value="Naivasha">Naivasha</option>
                             <option value="Nakuru">Nakuru</option>
                             <option value="Mombasa">Mombasa</option>
-                        </select><br>
+                        </select>
                         <label for="type">Type of vehicle
                         </label>
-                        <select class="form-control" id="type">
+                        <select class="form-control" id="type" required>
                             <option></option>
                             <option value="Heavy">Heavy</option>
                             <option value="Medium">Medium</option>
                             <option value="Light">Light</option>
-                        </select><br>
+                        </select>
 
                         <label for="service">Services
                         </label>
-                        <select class="form-control" id="services">
+                        <select class="form-control" id="services" required>
                             <option></option>
                             <option value="Engine service">Engine service</option>
                             <option value="Power System">Power System</option>
                             <option value="Oil services">Oil services</option>
                             <option value="Parking">Parking</option>
                             <option value="Car wash">Car wash</option>
-                        </select><br>
+                        </select>
                         <label for="duration">Duration
                         </label>
-                        <select class="form-control" id="duration">
+                        <select class="form-control" id="duration" required>
                             <option></option>
                             <option value="Urgently">Urgently (One day)</option>
                             <option value="Normal">Normal (One week)</option>
                             <option value="Late">Late (More than a week)</option>
-                        </select><br>
+                        </select>
                     </div>
                     <button type="submit" class="btn btn-success">Submit</button>
 
-
-                </form>
+                </div>
+            </form>
+            <div class="cbooking">
+                <h2>Your Details</h2>
+                <table class="table table-striped table-dark">
+                    <thead>
+                        <tr>
+                            <th scope="col">Full Names</th>
+                            <th scope="col">Email Address</th>
+                            <th scope="col">Phone No.</th>
+                            <th scope="col">ID NO</th>
+                            <th scope="col">Reg No.</th>
+                            <th scope="col">Branch</th>
+                            <th scope="col">Type Of Vehicle</th>
+                            <th scope="col">Services</th>
+                            <th scope="col">Duration</th>
+                            <th scope="col">Total</th>
+                        </tr>
+                    </thead>
+                    <tbody id="order-summary"></tbody>
+                </table>
             </div>
-
         </div>
+
+    </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"
         integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>

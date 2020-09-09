@@ -43,3 +43,7 @@ nav ul li:hover ul {
     display: block;
 }
 
+h1,p {
+    text-align: center;
+}
+

@@ -1,20 +1,20 @@
-# pizza-web
+# Garage-system-group
 
 <table>
 <tr>
 <td>
- Debonairs Pizza is a Kenyan based pizza restaurant founded in 2004 by John kamau. John came up with the idea and business model to found the company following a gap-year trip to Nairobi when he was a student at the University of Nairobi. Debonairs pizza is located in Nairobi near university of Nairobi.
+A garage system where one can log in choose the garage branch (location), choose services, duration and the system will prompt customer when the service is over. System will also prompt customer when the service has started to be offered.
 </td>
 </tr>
 </table>
 
 ## Demo
-Here is a working live demo :  https://Josephshitandi.github.io/pizza-web/
+Here is a working live demo :  https://Josephshitandi.github.io/Garage-system-group/
 
 ## Mobile support
-The pizza-web is compatible with devices of all sizes and all OS's, and consistent improvements are being made.
+The Garage-system-group is compatible with devices of all sizes and all OS's, and consistent improvements are being made.
 
-## [Usage](https://Josephshitandi.github.io/pizza-web/)
+## [Usage](https://Josephshitandi.github.io/Garage-system-group/)
 ### Development
 
 Want to contribute? Awesome!
@@ -35,8 +35,12 @@ To fix a bug or enhance an existing module, follow these steps:
 
 ## Author
 - Joseph Shitandi Otaaba
+- Joseph Mulama Tembu
+- Sophie Olondie
+- Bihawa Mohammed
+- Reagan Owiti
 
 ## License 
-[MIT](https://github.com/Josephshitandi/pizza-web/blob/master/LICENSE.md)
+[MIT](https://github.com/Josephshitandi/Garage-system-group/blob/master/LICENSE.md)
 
  © [Joseph Shitandi Otaaba](https://github.com/Josephshitandi)

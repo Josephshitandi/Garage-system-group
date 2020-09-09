@@ -95,7 +95,9 @@ $(document).ready(function () {
 
 
         $("#booking-summary").append(
-            "<tr>" +
+            "<tr id='booking-" +
+            servicesOrdered.length +
+            "'>" +
             '<th scope="row">' +
             newBooking.name +
             "</th>" +
@@ -130,16 +132,72 @@ $(document).ready(function () {
             "<td>" +
             newBooking.finalFee() +
             "</td>" +
+            "<td>" +
+            '<i class="fas fa-trash" id="delete-' +
+            servicesOrdered.length +
+            '"></i>' +
+            "</td>" +
             "</tr>"
         );
 
-
-
-
+        $("#confirm-button").show();
     });
 
-
-
-
-
+    for (let i = 1; i < 10; i++) {
+        $(document).on("click", "#delete-" + i, function () {
+            $("#booking-summary").empty();
+            servicesOrdered.splice(i - 1, 1);
+            var serviceId = 1;
+            servicesOrdered.forEach(function (booking) {
+                $("#booking-summary").append(
+                    "<tr id='booking-" +
+                    serviceId +
+                    "'>" +
+                    '<th scope="row">' +
+                    booking.name +
+                    "</th>" +
+                    "<td>" +
+                    booking.email +
+                    "</td>" +
+                    "<td>" +
+                    booking.phone +
+                    "</td>" +
+                    "<td>" +
+                    booking.id +
+                    "</td>" +
+                    "<td>" +
+                    booking.regNo +
+                    "</td>" +
+                    "<td>" +
+                    booking.branch +
+                    "</td>" +
+                    "<td>" +
+                    booking.type +
+                    "</td>" +
+                    "<td>" +
+                    booking.services +
+                    " - " +
+                    booking.getServicesFee() +
+                    "</td>" +
+                    "<td>" +
+                    booking.duration +
+                    " - " +
+                    booking.getDurationFee() +
+                    "</td>" +
+                    "<td>" +
+                    booking.finalFee() +
+                    "</td>" +
+                    "<td>" +
+                    '<i class="fas fa-trash" id="delete-' +
+                    serviceId +
+                    '"></i>' +
+                    "</td>" +
+                    "</tr>"
+                );
+            });
+            if (servicesOrdered.length == 0) {
+                $("#confirm-button").hide();
+            }
+        });
+    }
 });

@@ -51,7 +51,7 @@ $(document).ready(function () {
                 return 1500;
             } else {
                 return 0;
-            }
+            };
         } else {
             if (this.duration === "Urgently") {
                 return 800;
@@ -59,7 +59,17 @@ $(document).ready(function () {
                 return 1200;
             } else {
                 return 0;
-            }
-        }
-    }
+            };
+        };
+    };
+    $("#userInput").submit(function(e){
+        e.preventDefault();
+        var userBranch = $("#branch").val();
+        var userType = $("#type").val();
+        var userService = $("#services").val();
+        var userDuration = $("#duration").val();
+        var newBooking = new Booking(userBranch,userType,userService,userDuration)
+        
+
+    });
 });

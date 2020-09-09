@@ -21,6 +21,18 @@ $(document).ready(function(){
             }else{
                 return 800;
             }
-        }else 
+        }else if(this.type === "Medium"){
+            if(this.services === "Engine service"){
+                return 3000;
+            }else if(this.services === "Power System"){
+                return 2500;
+            }else if(this.services === "Oil services"){
+                return 3000;
+            }else if(this.services === "Parking"){
+                return 500;
+            }else{
+                return 600;
+            }
+        }
     }
 })

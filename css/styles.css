@@ -21,3 +21,12 @@ nav ul li {
     position: relative;
 }
 
+nav ul li a {
+    font-family: 'Playball', cursive;
+    color: black;
+    font-size: 20px;
+    padding: 22px 14px;
+    display: block;
+    text-decoration: none;
+}
+

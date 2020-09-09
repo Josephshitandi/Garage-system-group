@@ -34,3 +34,8 @@ nav ul li ul li a {
     padding: 8px 14px;
 }
 
+nav ul li ul li {
+    width: 180px;
+    border-radius: 4px;
+}
+

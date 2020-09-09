@@ -68,7 +68,8 @@ $(document).ready(function () {
         var userType = $("#type").val();
         var userService = $("#services").val();
         var userDuration = $("#duration").val();
-        var newBooking = new Booking(userBranch,userType,userService,userDuration)
+        var newBooking = new Booking(userBranch,userType,userService,userDuration);
+        console.log(newBooking)
         
 
     });

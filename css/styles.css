@@ -39,3 +39,7 @@ nav ul li ul li {
     border-radius: 4px;
 }
 
+nav ul li:hover ul {
+    display: block;
+}
+

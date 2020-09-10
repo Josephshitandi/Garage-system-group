@@ -1,0 +1,13 @@
+.hidden {
+    display: none;
+}
+
+.uform {
+    height: 100px;
+    width: 500px;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+}

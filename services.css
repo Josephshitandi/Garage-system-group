@@ -1,0 +1,24 @@
+body{
+    background-color:#98954E;
+}
+.container{
+    background-color:#98954E;
+}
+.jumbotron{
+    background-color: gray;
+}
+h1{
+    font-size: 30px;
+    color:black;
+    font-family: 'Playball', cursive;
+    text-align: center;
+}
+p{
+    font-size: medium;
+    font-family: 'Playball', cursive;
+}
+/* #image1>image{
+    width: 300%;
+    height: 30vh;
+    object-fit: cover;
+} */

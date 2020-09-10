@@ -141,6 +141,10 @@ $(document).ready(function () {
         );
 
         $("#confirm-button").show();
+        $("#checkout").click(function () {
+            alert("Thank you " + newBooking.name + " for booking with us on " + newBooking.email + ". We value you.")
+        });
+
     });
 
     for (let i = 1; i < 10; i++) {
@@ -200,9 +204,6 @@ $(document).ready(function () {
             }
         });
     }
-    $("#checkout").click(function () {
-        alert("Thank you for booking with us. You will be alerted when the service is done.")
-    });
 
     $("#contactUs").submit(function (e) {
         e.preventDefault();

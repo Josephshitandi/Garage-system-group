@@ -12,6 +12,18 @@
 
 <body>
     <div class="container contacts">
+        <div class="overlay" id="overlay">
+            <nav>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="services.html">SERVICES</a></li>
+                    <li><a href="contacts.html">CONTACT US</a></li>
+                    <li><a href="booking.html">BOOKING SERVICES</a></li>
+                    <li><a href="branch.html">OUR BRANCHES</a></li>
+                </ul>
+            </nav>
+        </div>
         <h1>CONTACT US</h1>
         <div class="row">
             <div class="col-md-8">
@@ -49,18 +61,18 @@
                     <div class="form-group row">
                         <label for="name" class="col-sm-2 col-form-label">Your Name</label>
                         <div class="col-sm-10">
-                            <input type="text" class="form-control" id="cname">
+                            <input type="text" class="form-control" id="cname" required>
                         </div>
                     </div>
                     <div class="form-group row">
                         <label for="email" class="col-sm-2 col-form-label">Your Email</label>
                         <div class="col-sm-10">
-                            <input type="email" class="form-control" id="cemail">
+                            <input type="email" class="form-control" id="cemail" required>
                         </div>
                     </div>
                     <div class="form-group">
                         <label for="message">Your Message</label>
-                        <textarea class="form-control" id="cmessage" rows="3"></textarea>
+                        <textarea class="form-control" id="cmessage" rows="3" required></textarea>
                     </div>
                     <div class="form-group row">
                         <div class="col-sm-10">

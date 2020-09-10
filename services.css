@@ -1,11 +1,11 @@
 body{
-    background-color:#98954E;
+    background-color:#00695c;
 }
 .container{
-    background-color:#98954E;
+    background-color:#00695c;
 }
 .jumbotron{
-    background-color: gray;
+    background-color: #2BBBAD;
 }
 h1{
     font-size: 30px;
@@ -14,11 +14,6 @@ h1{
     text-align: center;
 }
 p{
-    font-size: medium;
+    font-size: large;
     font-family: 'Playball', cursive;
 }
-/* #image1>image{
-    width: 300%;
-    height: 30vh;
-    object-fit: cover;
-} */

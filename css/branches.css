@@ -7,7 +7,7 @@ body {
 	background-color: chartreuse;
 }
 .jumbotron {
-	background-color:chartreuse ;
+	background-color:#98954E;;
 }
 .details {
 	text-align: center;
@@ -16,21 +16,85 @@ body {
 .col-md-4 {
 	text-align: center;
 }
-table{
+table {
 	border: 1px solid black;
 	margin-left: auto;
-  margin-right: auto;
+	margin-right: auto;
 }
-p{
-	color:black;
+p {
+	color: black;
 	font-size: 30px;
 }
-h5{
+h5 {
 	color: black;
 }
-li{
+li {
 	color: black;
 }
-.card>ul>li{
-	background-color: blue;
+.card > ul > li {
+	background-color:grey;
+}
+body {
+	background-color: #98954e;
+	font-family: "Playball", cursive;
+	background-size: cover;
+}
+
+nav {
+	width: 100%;
+	height: 60px;
+	color: #6e6b6e;
+	transition: top 0.3s;
+}
+
+nav ul {
+	float: right;
+}
+
+nav ul li {
+	float: left;
+	list-style: none;
+	position: relative;
+}
+
+nav ul li a {
+	font-family: "Playball", cursive;
+	color: black;
+	font-size: 20px;
+	padding: 22px 14px;
+	display: block;
+	text-decoration: none;
+}
+
+nav ul li ul li a {
+	padding: 8px 14px;
+}
+
+nav ul li ul li {
+	width: 180px;
+	border-radius: 4px;
+}
+
+nav ul li:hover ul {
+	display: block;
+}
+
+h1,
+p {
+	text-align: center;
+}
+
+#garage {
+	height: 350px;
+	width: 1049px;
+}
+
+footer {
+	text-align: center;
+	background-color: black;
+	background-size: cover;
+}
+
+.footer-copyright {
+	color: aliceblue;
 }

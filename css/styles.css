@@ -1,6 +1,12 @@
 body {
-    background-color:#98954E;
+    background-color: #00695c;
     font-family: 'Playball', cursive;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+.home1 {
+    background-image: url('../images/image1.jpeg');
     background-size: cover;
 }
 
@@ -43,7 +49,8 @@ nav ul li:hover ul {
     display: block;
 }
 
-h1,p {
+h1,
+p {
     text-align: center;
 }
 
@@ -55,10 +62,10 @@ h1,p {
 
 footer {
     text-align: center;
-    background-color: black;
+    background-color: #2BBBAD;
     background-size: cover;
 }
 
-.footer-copyright{
+.footer-copyright {
     color: aliceblue;
 }

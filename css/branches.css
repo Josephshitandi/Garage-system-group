@@ -32,7 +32,7 @@ li {
 	color: black;
 }
 .card > ul > li {
-	background-color: blue;
+	background-color:grey;
 }
 body {
 	background-color: #98954e;

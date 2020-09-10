@@ -1,0 +1,36 @@
+h1 {
+	text-align: center;
+	color: blue;
+	margin-top: 50px;
+}
+body {
+	background-color: chartreuse;
+}
+.jumbotron {
+	background-color:chartreuse ;
+}
+.details {
+	text-align: center;
+	color: black;
+}
+.col-md-4 {
+	text-align: center;
+}
+table{
+	border: 1px solid black;
+	margin-left: auto;
+  margin-right: auto;
+}
+p{
+	color:black;
+	font-size: 30px;
+}
+h5{
+	color: black;
+}
+li{
+	color: black;
+}
+.card>ul>li{
+	background-color: blue;
+}

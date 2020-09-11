@@ -1,6 +1,5 @@
 h1 {
 	text-align: center;
-	/* color: blue; */
 	margin-top: 50px;
 }
 
@@ -102,16 +101,6 @@ p {
 	height: 350px;
 	width: 1049px;
 }
-
-/* footer {
-	text-align: center;
-	background-color: black;
-	background-size: cover;
-}
-
-.footer-copyright {
-	color: aliceblue;
-} */
 
 .card img {
 	opacity: rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7);

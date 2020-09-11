@@ -1,4 +1,8 @@
 2020 (c) Joseph Shitandi Otaaba <jsphshtnd@gmail.com>
+2020 (c) Sophie Olondie <sophieolondie@gmail.com>
+2020 (c) Bihawa Mohammed <bihawam271@gmail.com>
+2020 (c) Joseph Mulama Tembu <josephmulama30@gmail.com>
+
 
 Permission is hereby granted, free of charge, to any person
 obtaining a copy of this software and associated documentation
